@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56FCAB460DED8E2C9D639E7B /* Pods_InternetOfThings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72953AAC94B61D9624EF866C /* Pods_InternetOfThings.framework */; };
+		E12CD1361E7A80E6009A57C3 /* DateAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CD1351E7A80E6009A57C3 /* DateAxisValueFormatter.swift */; };
+		E12CD1381E7BE096009A57C3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CD1371E7BE096009A57C3 /* ViewModel.swift */; };
+		E12CD13A1E7F7C9C009A57C3 /* Alamofire+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CD1391E7F7C9C009A57C3 /* Alamofire+Extension.swift */; };
+		E12CD13C1E7F87E7009A57C3 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CD13B1E7F87E7009A57C3 /* Error+Extension.swift */; };
+		E1368CA11E727D4700FE3EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1368CA01E727D4700FE3EAC /* AppDelegate.swift */; };
+		E1368CA31E727D4700FE3EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1368CA21E727D4700FE3EAC /* ViewController.swift */; };
+		E1368CA61E727D4700FE3EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1368CA41E727D4700FE3EAC /* Main.storyboard */; };
+		E1368CA81E727D4700FE3EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1368CA71E727D4700FE3EAC /* Assets.xcassets */; };
+		E1368CAB1E727D4700FE3EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1368CA91E727D4700FE3EAC /* LaunchScreen.storyboard */; };
+		E1C60EE51E7921D000ECD602 /* AQIChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C60EE41E7921D000ECD602 /* AQIChartsViewController.swift */; };
+		E1C60EE91E79485A00ECD602 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C60EE81E79485A00ECD602 /* CustomMarkerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C5763830F3BB2D9DD593CE7 /* Pods-InternetOfThings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetOfThings.release.xcconfig"; path = "Pods/Target Support Files/Pods-InternetOfThings/Pods-InternetOfThings.release.xcconfig"; sourceTree = "<group>"; };
+		72953AAC94B61D9624EF866C /* Pods_InternetOfThings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternetOfThings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7911BA7D21C6DC308BCF76 /* Pods-InternetOfThings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetOfThings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InternetOfThings/Pods-InternetOfThings.debug.xcconfig"; sourceTree = "<group>"; };
+		E12CD1351E7A80E6009A57C3 /* DateAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateAxisValueFormatter.swift; sourceTree = "<group>"; };
+		E12CD1371E7BE096009A57C3 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E12CD1391E7F7C9C009A57C3 /* Alamofire+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+Extension.swift"; sourceTree = "<group>"; };
+		E12CD13B1E7F87E7009A57C3 /* Error+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
+		E1368C9D1E727D4700FE3EAC /* InternetOfThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetOfThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1368CA01E727D4700FE3EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1368CA21E727D4700FE3EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1368CA51E727D4700FE3EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1368CA71E727D4700FE3EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1368CAA1E727D4700FE3EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1368CAC1E727D4700FE3EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C60EE41E7921D000ECD602 /* AQIChartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQIChartsViewController.swift; sourceTree = "<group>"; };
+		E1C60EE81E79485A00ECD602 /* CustomMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1368C9A1E727D4700FE3EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FCAB460DED8E2C9D639E7B /* Pods_InternetOfThings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C8D35A5B30D49EF599DB4B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC7911BA7D21C6DC308BCF76 /* Pods-InternetOfThings.debug.xcconfig */,
+				5C5763830F3BB2D9DD593CE7 /* Pods-InternetOfThings.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1368C941E727D4700FE3EAC = {
+			isa = PBXGroup;
+			children = (
+				E1368C9F1E727D4700FE3EAC /* InternetOfThings */,
+				E1368C9E1E727D4700FE3EAC /* Products */,
+				6C8D35A5B30D49EF599DB4B8 /* Pods */,
+				E35F76FA1D844D6EDC174526 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1368C9E1E727D4700FE3EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1368C9D1E727D4700FE3EAC /* InternetOfThings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1368C9F1E727D4700FE3EAC /* InternetOfThings */ = {
+			isa = PBXGroup;
+			children = (
+				E1368CA01E727D4700FE3EAC /* AppDelegate.swift */,
+				E1368CA21E727D4700FE3EAC /* ViewController.swift */,
+				E1368CA41E727D4700FE3EAC /* Main.storyboard */,
+				E1368CA71E727D4700FE3EAC /* Assets.xcassets */,
+				E1368CA91E727D4700FE3EAC /* LaunchScreen.storyboard */,
+				E1368CAC1E727D4700FE3EAC /* Info.plist */,
+				E1C60EE41E7921D000ECD602 /* AQIChartsViewController.swift */,
+				E1C60EE81E79485A00ECD602 /* CustomMarkerView.swift */,
+				E12CD1351E7A80E6009A57C3 /* DateAxisValueFormatter.swift */,
+				E12CD1371E7BE096009A57C3 /* ViewModel.swift */,
+				E12CD1391E7F7C9C009A57C3 /* Alamofire+Extension.swift */,
+				E12CD13B1E7F87E7009A57C3 /* Error+Extension.swift */,
+			);
+			path = InternetOfThings;
+			sourceTree = "<group>";
+		};
+		E35F76FA1D844D6EDC174526 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72953AAC94B61D9624EF866C /* Pods_InternetOfThings.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1368C9C1E727D4700FE3EAC /* InternetOfThings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1368CAF1E727D4700FE3EAC /* Build configuration list for PBXNativeTarget "InternetOfThings" */;
+			buildPhases = (
+				35D2FE02D1FB0D8B485D27FD /* [CP] Check Pods Manifest.lock */,
+				E1368C991E727D4700FE3EAC /* Sources */,
+				E1368C9A1E727D4700FE3EAC /* Frameworks */,
+				E1368C9B1E727D4700FE3EAC /* Resources */,
+				19E5CFCDD607A2ACF488BF80 /* [CP] Embed Pods Frameworks */,
+				5001E63C19ABE69061C29599 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternetOfThings;
+			productName = InternetOfThings;
+			productReference = E1368C9D1E727D4700FE3EAC /* InternetOfThings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1368C951E727D4700FE3EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liutingting;
+				TargetAttributes = {
+					E1368C9C1E727D4700FE3EAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 284357W4SE;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E1368C981E727D4700FE3EAC /* Build configuration list for PBXProject "InternetOfThings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1368C941E727D4700FE3EAC;
+			productRefGroup = E1368C9E1E727D4700FE3EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1368C9C1E727D4700FE3EAC /* InternetOfThings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1368C9B1E727D4700FE3EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1368CAB1E727D4700FE3EAC /* LaunchScreen.storyboard in Resources */,
+				E1368CA81E727D4700FE3EAC /* Assets.xcassets in Resources */,
+				E1368CA61E727D4700FE3EAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19E5CFCDD607A2ACF488BF80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InternetOfThings/Pods-InternetOfThings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35D2FE02D1FB0D8B485D27FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5001E63C19ABE69061C29599 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InternetOfThings/Pods-InternetOfThings-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1368C991E727D4700FE3EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12CD1361E7A80E6009A57C3 /* DateAxisValueFormatter.swift in Sources */,
+				E1368CA31E727D4700FE3EAC /* ViewController.swift in Sources */,
+				E12CD13C1E7F87E7009A57C3 /* Error+Extension.swift in Sources */,
+				E1C60EE91E79485A00ECD602 /* CustomMarkerView.swift in Sources */,
+				E1C60EE51E7921D000ECD602 /* AQIChartsViewController.swift in Sources */,
+				E1368CA11E727D4700FE3EAC /* AppDelegate.swift in Sources */,
+				E12CD1381E7BE096009A57C3 /* ViewModel.swift in Sources */,
+				E12CD13A1E7F7C9C009A57C3 /* Alamofire+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1368CA41E727D4700FE3EAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1368CA51E727D4700FE3EAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1368CA91E727D4700FE3EAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1368CAA1E727D4700FE3EAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1368CAD1E727D4700FE3EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1368CAE1E727D4700FE3EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1368CB01E727D4700FE3EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7911BA7D21C6DC308BCF76 /* Pods-InternetOfThings.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liang Wang (XYHCB6HT5Y)";
+				DEVELOPMENT_TEAM = 284357W4SE;
+				INFOPLIST_FILE = InternetOfThings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ltt.InternetOfThings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e36dd965-8303-4acc-8f2d-1374cd7d266f";
+				PROVISIONING_PROFILE_SPECIFIER = app;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E1368CB11E727D4700FE3EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5763830F3BB2D9DD593CE7 /* Pods-InternetOfThings.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = InternetOfThings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ltt.InternetOfThings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1368C981E727D4700FE3EAC /* Build configuration list for PBXProject "InternetOfThings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1368CAD1E727D4700FE3EAC /* Debug */,
+				E1368CAE1E727D4700FE3EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1368CAF1E727D4700FE3EAC /* Build configuration list for PBXNativeTarget "InternetOfThings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1368CB01E727D4700FE3EAC /* Debug */,
+				E1368CB11E727D4700FE3EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1368C951E727D4700FE3EAC /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_InternetOfThings {
+  umbrella header "Pods-InternetOfThings-umbrella.h"
+
+  export *
+  module * { export * }
+}

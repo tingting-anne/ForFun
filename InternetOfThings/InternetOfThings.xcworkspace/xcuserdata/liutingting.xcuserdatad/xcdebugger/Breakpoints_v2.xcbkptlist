@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InternetOfThings/ViewModel.swift"
+            timestampString = "512134706.105335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getCurrentAQI(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InternetOfThings/ViewModel.swift"
+            timestampString = "512134706.105335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "getLampStatus(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InternetOfThings/ViewModel.swift"
+            timestampString = "512141329.423997"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "getHistoryAQI(startTime:endTime:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InternetOfThings/ViewModel.swift"
+            timestampString = "512134706.105335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getLampStatus(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InternetOfThings.ViewModel.(getLampStatus (completionHandler : (Swift.Optional&lt;InternetOfThings.LampStatus&gt;, Swift.Optional&lt;InternetOfThings.CustomError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "InternetOfThings"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingting/code/Young/iOS/InternetOfThings/InternetOfThings/ViewModel.swift"
+                  timestampString = "512141329.598335"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InternetOfThings.ViewModel.(getLampStatus (completionHandler : (Swift.Optional&lt;InternetOfThings.LampStatus&gt;, Swift.Optional&lt;InternetOfThings.CustomError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "InternetOfThings"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingting/code/Young/iOS/InternetOfThings/InternetOfThings/ViewModel.swift"
+                  timestampString = "512141329.599643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "376">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InternetOfThings/ViewModel.swift"
+            timestampString = "512141329.423997"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "changeLampStatus(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InternetOfThings.ViewModel.changeLampStatus (completionHandler : (Swift.Optional&lt;InternetOfThings.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "InternetOfThings"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingting/code/Young/iOS/InternetOfThings/InternetOfThings/ViewModel.swift"
+                  timestampString = "512141329.602161"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InternetOfThings.ViewModel.(changeLampStatus (completionHandler : (Swift.Optional&lt;InternetOfThings.CustomError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "InternetOfThings"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingting/code/Young/iOS/InternetOfThings/InternetOfThings/ViewModel.swift"
+                  timestampString = "512141329.603369"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InternetOfThings/ViewController.swift"
+            timestampString = "512141857.610763"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "changeLampStatus(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InternetOfThings.ViewController.changeLampStatus (Any) -&gt; ()"
+                  moduleName = "InternetOfThings"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingting/code/Young/iOS/InternetOfThings/InternetOfThings/ViewController.swift"
+                  timestampString = "512141329.607074"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InternetOfThings.ViewController.(changeLampStatus (Any) -&gt; ()).(closure #1)"
+                  moduleName = "InternetOfThings"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingting/code/Young/iOS/InternetOfThings/InternetOfThings/ViewController.swift"
+                  timestampString = "512141329.611266"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
